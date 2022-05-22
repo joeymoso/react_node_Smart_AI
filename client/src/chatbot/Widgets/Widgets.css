@@ -1,0 +1,32 @@
+.option-button {
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  border-radius: 25px;
+  padding: 10px;
+  background: #376B7E;
+  color: white !important;
+  border: 1px solid white !important
+}
+
+.option-btn {
+  padding: 0.5rem !important;
+  border-radius: 25px !important;
+  margin: 3px !important;
+  color: white;
+  border: 1px solid white !important
+}
+
+.btn-group {
+  flex-wrap: wrap;
+}
+
+.buttons-div{
+  background-color: #376B7E;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  position: relative;
+  width: 184.5px;
+  margin-left: 1%;
+  text-align: center;
+}
