@@ -18,7 +18,7 @@ app.get('/summary/:id', (req, res) => {
     url: 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/'+ req.params.id +'/summary',
     headers: {
       'X-RapidAPI-Host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-      'X-RapidAPI-Key': '527105cae9msh571e38006571883p167ccajsn46913876a7b8'
+      'X-RapidAPI-Key': 'RAPIDAPI_KEY'
     }
   };
 
@@ -51,7 +51,7 @@ app.get('/allergic/:allergic/diet/:diet',  async (req, res) => {
     },
     headers: {
       'X-RapidAPI-Host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-      'X-RapidAPI-Key': '527105cae9msh571e38006571883p167ccajsn46913876a7b8'
+      'X-RapidAPI-Key': 'RAPIDAPI_KEY'
     }
   };
   const options2 = {
@@ -67,7 +67,7 @@ app.get('/allergic/:allergic/diet/:diet',  async (req, res) => {
     },
     headers: {
       'X-RapidAPI-Host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-      'X-RapidAPI-Key': '527105cae9msh571e38006571883p167ccajsn46913876a7b8'
+      'X-RapidAPI-Key': 'RAPIDAPI_KEY'
     }
   };
   const options3 = {
@@ -83,7 +83,7 @@ app.get('/allergic/:allergic/diet/:diet',  async (req, res) => {
     },
     headers: {
       'X-RapidAPI-Host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-      'X-RapidAPI-Key': '527105cae9msh571e38006571883p167ccajsn46913876a7b8'
+      'X-RapidAPI-Key': 'RAPIDAPI_KEY'
     }
   };
 
